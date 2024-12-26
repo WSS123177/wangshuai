@@ -14,26 +14,26 @@
 
 	<select id="selectListVO"
 		resultType="com.entity.vo.KaoyandaojishiVO" >
-		SELECT * FROM kaoyandaojishi  kaoyandaojishi         
+		SELECT * FROM guokaodaojishi  kaoyandaojishi
         <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectVO"
 		resultType="com.entity.vo.KaoyandaojishiVO" >
-		SELECT  kaoyandaojishi.* FROM kaoyandaojishi  kaoyandaojishi 	
+		SELECT  kaoyandaojishi.* FROM guokaodaojishi  kaoyandaojishi
  		<where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 
     <select id="selectListView"
 		resultType="com.entity.view.KaoyandaojishiView" >
 
-		SELECT  kaoyandaojishi.* FROM kaoyandaojishi  kaoyandaojishi 	        
+		SELECT  kaoyandaojishi.* FROM guokaodaojishi  kaoyandaojishi
         <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectView"
 		resultType="com.entity.view.KaoyandaojishiView" >
-		SELECT * FROM kaoyandaojishi  kaoyandaojishi <where> 1=1 ${ew.sqlSegment}</where>
+		SELECT * FROM guokaodaojishi  kaoyandaojishi <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 

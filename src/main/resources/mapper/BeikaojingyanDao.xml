@@ -14,26 +14,26 @@
 
 	<select id="selectListVO"
 		resultType="com.entity.vo.BeikaojingyanVO" >
-		SELECT * FROM beikaojingyan  beikaojingyan         
+		SELECT * FROM kaogongjingyan  beikaojingyan
         <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectVO"
 		resultType="com.entity.vo.BeikaojingyanVO" >
-		SELECT  beikaojingyan.* FROM beikaojingyan  beikaojingyan 	
+		SELECT  beikaojingyan.* FROM kaogongjingyan  beikaojingyan
  		<where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 
     <select id="selectListView"
 		resultType="com.entity.view.BeikaojingyanView" >
 
-		SELECT  beikaojingyan.* FROM beikaojingyan  beikaojingyan 	        
+		SELECT  beikaojingyan.* FROM kaogongjingyan  beikaojingyan
         <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectView"
 		resultType="com.entity.view.BeikaojingyanView" >
-		SELECT * FROM beikaojingyan  beikaojingyan <where> 1=1 ${ew.sqlSegment}</where>
+		SELECT * FROM kaogongjingyan  beikaojingyan <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 

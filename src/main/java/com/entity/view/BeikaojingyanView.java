@@ -17,7 +17,7 @@ import java.io.Serializable;
  * @email 
  * @date 2023-02-15 18:24:55
  */
-@TableName("beikaojingyan")
+@TableName("kaogongjingyan")
 public class BeikaojingyanView  extends BeikaojingyanEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 

@@ -17,26 +17,26 @@
 
 	<select id="selectListVO"
 		resultType="com.entity.vo.KaoyanzhengceVO" >
-		SELECT * FROM kaoyanzhengce  kaoyanzhengce         
+		SELECT * FROM kaogongzhengce  kaoyanzhengce
         <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectVO"
 		resultType="com.entity.vo.KaoyanzhengceVO" >
-		SELECT  kaoyanzhengce.* FROM kaoyanzhengce  kaoyanzhengce 	
+		SELECT  kaoyanzhengce.* FROM kaogongzhengce  kaoyanzhengce
  		<where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 
     <select id="selectListView"
 		resultType="com.entity.view.KaoyanzhengceView" >
 
-		SELECT  kaoyanzhengce.* FROM kaoyanzhengce  kaoyanzhengce 	        
+		SELECT  kaoyanzhengce.* FROM kaogongzhengce  kaoyanzhengce
         <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectView"
 		resultType="com.entity.view.KaoyanzhengceView" >
-		SELECT * FROM kaoyanzhengce  kaoyanzhengce <where> 1=1 ${ew.sqlSegment}</where>
+		SELECT * FROM kaogongzhengce  kaoyanzhengce <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 

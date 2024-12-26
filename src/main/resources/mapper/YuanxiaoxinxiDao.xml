@@ -22,26 +22,26 @@
 
 	<select id="selectListVO"
 		resultType="com.entity.vo.YuanxiaoxinxiVO" >
-		SELECT * FROM yuanxiaoxinxi  yuanxiaoxinxi         
+		SELECT * FROM gangweixinxi  yuanxiaoxinxi
         <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectVO"
 		resultType="com.entity.vo.YuanxiaoxinxiVO" >
-		SELECT  yuanxiaoxinxi.* FROM yuanxiaoxinxi  yuanxiaoxinxi 	
+		SELECT  yuanxiaoxinxi.* FROM gangweixinxi  yuanxiaoxinxi
  		<where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 
     <select id="selectListView"
 		resultType="com.entity.view.YuanxiaoxinxiView" >
 
-		SELECT  yuanxiaoxinxi.* FROM yuanxiaoxinxi  yuanxiaoxinxi 	        
+		SELECT  yuanxiaoxinxi.* FROM gangweixinxi  yuanxiaoxinxi
         <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectView"
 		resultType="com.entity.view.YuanxiaoxinxiView" >
-		SELECT * FROM yuanxiaoxinxi  yuanxiaoxinxi <where> 1=1 ${ew.sqlSegment}</where>
+		SELECT * FROM gangweixinxi  yuanxiaoxinxi <where> 1=1 ${ew.sqlSegment}</where>
 	</select>
 	
 
